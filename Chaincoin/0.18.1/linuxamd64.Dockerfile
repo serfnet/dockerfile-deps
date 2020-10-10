@@ -11,7 +11,7 @@ ENV CHAINCOIN_VERSION 0.18.1
 ENV CHAINCOIN_URL https://github.com/chaincoin/chaincoin/releases/download/v0.18/chaincoin-0.18.1-x86_64-linux-gnu.tar.gz
 ENV CHAINCOIN_SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
-# install chaincoin binaries
+# install chaincoin binaries 0.18.1
 RUN set -ex \
     && cd /tmp \
     && wget -qO chaincoin.tar.gz "$CHAINCOIN_URL" \
